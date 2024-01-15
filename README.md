@@ -18,7 +18,7 @@ This project is a React application created with Vite, Vitest, React Testing Lib
 
 ### Prerequisites -> Must have installed
 
-- Node.js (Version 18)
+- Node.js (Version >= 18)
 
 ### Installation
 
