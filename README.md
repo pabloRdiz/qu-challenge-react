@@ -46,8 +46,8 @@ This project is a React application created with Vite, Vitest, React Testing Lib
 - Development Server. Run the development server:
   ```bash
   yarn dev
-  Open http://localhost:5173/ in your browser to view the app.
   ```
+  Open http://localhost:5173/ in your browser to view the app.
 
 ### Linting
 
