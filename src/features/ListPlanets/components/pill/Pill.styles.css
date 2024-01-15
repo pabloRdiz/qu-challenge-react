@@ -1,0 +1,8 @@
+.text {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .1em;
+}
+.text-color {
+  color: #fafafa;
+}

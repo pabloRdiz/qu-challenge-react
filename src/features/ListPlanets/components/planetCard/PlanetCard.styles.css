@@ -1,0 +1,53 @@
+.planet-title {
+  background-clip: text;
+  background: linear-gradient(to right, #ffd900 0, #f5e069 20%, #eef0b4 100%);
+  font-size: 32px;
+  margin: 4px 0 4px 0;
+  text-align: left;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.planet-diameter {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 4px 0 4px 0;
+  text-align: left;
+}
+.planet-diameter-unit {
+  font-size: 20px;
+  color: #dddddd;
+}
+.planet-boby {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.planet-props-values {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.pills-container {
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .planet-boby {
+    grid-template-columns: 1fr;
+  }
+  .pills-container {
+    justify-content: center;
+  }
+}

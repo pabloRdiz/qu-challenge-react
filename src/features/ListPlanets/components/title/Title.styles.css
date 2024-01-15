@@ -1,0 +1,16 @@
+.title-container{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.title-logo{
+  height: 50px;
+}
+.title {
+  background-clip: text;
+  background: linear-gradient(to right, #ff0f23 0, #ea0f22 20%, #77cedb 100%);
+  font-size: 56px;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

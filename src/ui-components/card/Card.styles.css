@@ -1,0 +1,59 @@
+.card-container {
+  animation: fadeIn 0.3s;
+  background-color: #111;
+  border-radius: 4px;
+  box-shadow: 0.5px 0.5px 3px 1px rgba(99, 229, 252, 0.321);
+  padding: 1em;
+  -moz-animation: fadeIn 0.3s;
+  -ms-animation: fadeIn 0.3s;
+  -o-animation: fadeIn 0.3s;
+  -webkit-animation: fadeIn 0.3s;
+}
+.card-container:hover {
+  box-shadow: -1px 0px 7px 2px rgba(99, 229, 252, 0.321);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
